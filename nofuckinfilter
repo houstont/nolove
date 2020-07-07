@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <title>RBP</title>
+  <style>
+    @keyframes seizure-screen {
+      0%   { background-color: #f00; }
+      32%  { background-color: #f00; }
+      33%  { background-color: #0f0; }
+      65%  { background-color: #0f0; }
+      66%  { background-color: #00f; }
+      99%  { background-color: #00f; }
+      100%  { background-color: #f00; }
+    }
+    @keyframes seizure-text {
+      0%   { color: #fff; }
+      49%  { color: #fff; }
+      50%  { color: #000; }
+      99%  { color: #000; }
+      100% { color: #fff; }
+    }
+    body {
+      animation: seizure-screen 0.1s infinite;
+    }
+    #demo {
+      animation: seizure-text 0.1s infinite;
+    }
+  </style>
+</head>
+<body>
+  <p style="text-align:center">
+  <a id="demo"; style="font-size:420px;"; href="https://twitter.com/rawboyspodcast?lang=en">
+    raw
+  </a>
+  </p>
+</body>
+</html>
